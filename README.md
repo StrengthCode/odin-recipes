@@ -1,0 +1,1 @@
+Constituez votre README.mddossier et rédigez une brève introduction décrivant en quoi consiste le projet en cours et les compétences dont vous aurez fait preuve une fois celui-ci terminé. (Vous pouvez également le faire en tant qu'autoréflexion à la fin du projet, ce qui est un bon moyen de revoir ce que vous avez appris.)

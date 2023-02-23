@@ -7,16 +7,17 @@
 
     /* Image background */
 Body {
-   background: url(./assets/img/Gymnasium_interieur_dun_diner_dans_le_jeu_fallout_avec_des_obse_97ed6d60-6df8-4f3e-9bb2-93f508031880.png) center/cover ;
+   background: url(./assets/img/hOl6pYdo_2x.jpg) center/cover ;
    min-height: 100vh;
-   
+
 }
 
     /* Titre */
 h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
-    text-align: center;
+    text-align: right;
+    margin-right: 200px;
     /* Les tailles de polices doivent etre en REM */
     font-size: 7rem;
     /* Les ombres et la couleurs ont été faites a partir de 'inspecter' */
@@ -25,3 +26,18 @@ h1 {
     font-family: 'Condiment', cursive;
 
 }
+
+main {
+    /* boite */
+    height: 500px;
+    width: 90%;
+    text-align: center;
+    background: #ffffff59;
+    /* centrer une boite */
+    margin: 0% auto;
+}
+
+/* Pour ne plus voir les chiffres de ma liste */
+ol {
+    list-style-type: none;
+  }

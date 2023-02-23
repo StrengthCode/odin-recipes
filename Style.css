@@ -1,0 +1,27 @@
+    /* Style pour ma page d'acceuil */
+
+    @font-face {
+        font-family: "Condiment";
+        src: url(./assets/font/Condiment-Regular.ttf);
+    }
+
+    /* Image background */
+Body {
+   background: url(./assets/img/Gymnasium_interieur_dun_diner_dans_le_jeu_fallout_avec_des_obse_97ed6d60-6df8-4f3e-9bb2-93f508031880.png) center/cover ;
+   min-height: 100vh;
+   
+}
+
+    /* Titre */
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    /* Les tailles de polices doivent etre en REM */
+    font-size: 7rem;
+    /* Les ombres et la couleurs ont été faites a partir de 'inspecter' */
+    text-shadow: -3px 2px 4px #bd2525c7;
+    color: #fef8c0;
+    font-family: 'Condiment', cursive;
+
+}

@@ -22,22 +22,41 @@ h1 {
     font-size: 7rem;
     /* Les ombres et la couleurs ont été faites a partir de 'inspecter' */
     text-shadow: -3px 2px 4px #bd2525c7;
-    color: #fef8c0;
+    color: #8ac7b7;
     font-family: 'Condiment', cursive;
 
 }
 
 main {
     /* boite */
+    
+    font-family: 'Condiment', cursive;
+    font-size: 2rem;
+    color: #8ac7b7;
     height: 500px;
-    width: 90%;
-    text-align: center;
-    background: #ffffff59;
+    width: 100%;
+    text-align: right;
+    background: #ffffff00;
+    flex-direction: column;
+
+    
+
     /* centrer une boite */
-    margin: 0% auto;
+    margin-left: -20%;
 }
 
 /* Pour ne plus voir les chiffres de ma liste */
 ol {
     list-style-type: none;
+  }
+
+  /* colorer redirection quand cliquer */
+  a:visited {
+    color: #8ac7b7;
+    
+  }
+
+  /* supprimer le souslignement */
+  a {
+    text-decoration: none;
   }

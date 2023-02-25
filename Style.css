@@ -64,17 +64,17 @@ ol {
 
   body.tarte {
 
-background: url(/assets/img/back.jpg) center;
+background: url(/assets/img/back.jpg) center/cover;
 
   }
 
   body.burger {
 
-    background: url(/assets/img/back.jpg) center;
+    background: url(/assets/img/back.jpg) center/cover;
 
   }
 
   body.sushi {
 
-    background: url(/assets/img/back.jpg) center;
+    background: url(/assets/img/back.jpg) center/cover;
   }

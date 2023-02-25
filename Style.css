@@ -1,5 +1,5 @@
     /* Style pour ma page d'acceuil */
-
+body.index {}
     @font-face {
         font-family: "Condiment";
         src: url(./assets/font/Condiment-Regular.ttf);
@@ -21,7 +21,7 @@ h1 {
     /* Les tailles de polices doivent etre en REM */
     font-size: 7rem;
     /* Les ombres et la couleurs ont été faites a partir de 'inspecter' */
-    text-shadow: -3px 2px 4px #bd2525c7;
+    text-shadow: -3px 2px 4px #ad2424c7;
     color: #8ac7b7;
     font-family: 'Condiment', cursive;
 
@@ -59,4 +59,22 @@ ol {
   /* supprimer le souslignement */
   a {
     text-decoration: none;
+  }
+
+
+  body.tarte {
+
+background: url(/assets/img/back.jpg) center;
+
+  }
+
+  body.burger {
+
+    background: url(/assets/img/back.jpg) center;
+
+  }
+
+  body.sushi {
+
+    background: url(/assets/img/back.jpg) center;
   }
